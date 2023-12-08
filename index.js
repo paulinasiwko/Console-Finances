@@ -98,6 +98,15 @@ for (let i = 0; i < totalMonths; i++) {
 }
 
 
+// // Using map() and reduce() to calculate a net total amout of Profit/Losses
+// var total2 = finances.map((x) => x[1])
+//   .reduce((accumulator, currentValue) => accumulator + currentValue);
+
+// // Using only reduce() to calculate a net total amout of Profit/Losses
+// var total3 = finances.reduce((accumulator, currentValue) => accumulator + currentValue[1], 0);
+
+
+
 // Calculating the average of changes in Profit/Losses
 var totalChange = 0;
 var changesArray = [];
@@ -136,9 +145,9 @@ var decreaseDate = finances[decreaseIndex][0];
 
 
 // Printing the result to the console
-console.log('Financial Analysis \n----------------------------');
-console.log('Total Months: ' + totalMonths);
-console.log('Total: $' + total);
-console.log('Average Change: ' + averageChange);
-console.log('Greatest Increase in Profits/Losses: ' + increaseDate + ' ($' + increaseValue + ')');
-console.log('Greatest Decrease in Profits/Losses: ' + decreaseDate + '($' + decreaseValue + ')');
+console.log('Financial Analysis \n----------------------------\nTotal Months: ' + totalMonths 
++ '\nTotal: $' + total 
++ '\nAverage Change: ' + averageChange 
++ '\nGreatest Increase in Profits/Losses: ' + increaseDate + ' ($' + increaseValue + ')' 
++ '\nGreatest Decrease in Profits/Losses: ' + decreaseDate + '($' + decreaseValue + ')');
+
