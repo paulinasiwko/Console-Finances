@@ -9,9 +9,9 @@ By maintaining this deployed webpage, I aim to present a comprehensive overview 
 N/A
 
 ## Usage
-A dataset is composed of arrays with two fields: Date and Profit/Losses.
+A dataset is composed of **arrays** with two fields: Date and Profit/Losses.
 
-Using JavaScript I analyze the records to calculate each of the following:
+Using **JavaScript** I analyze the records to calculate each of the following:
 
 - the total number of months included in the dataset.
 - the net total amount of Profit/Losses over the entire period.
@@ -19,22 +19,13 @@ Using JavaScript I analyze the records to calculate each of the following:
 - the greatest increase in profits (date and difference in the amounts) over the entire period.
 - the greatest decrease in losses (date and difference in the amounts) over the entire period.
 
-The code prints the analysis to the console.
+**The code prints the analysis to the console.**
 
 After opening the code in the browser the resulting analysis looks as following:
 
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $38382578
-Average Change: -2315.12
-Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
-Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
-
+![A screenshot of the deployed application](./img/screenshot.PNG)
 
 The [URL] (https://paulinasiwko.github.io/Console-Finances/) of deployed application.
-
-![A screenshot of the deployed application](./img/screenshot.PNG)
 
 ## Credits
 N/A
