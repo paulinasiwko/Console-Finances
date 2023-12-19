@@ -25,7 +25,7 @@ After opening the code in the browser the resulting analysis looks as following:
 
 ![A screenshot of the deployed application](./img/screenshot.PNG)
 
-The [URL] (https://paulinasiwko.github.io/Console-Finances/) of deployed application.
+The [URL](https://paulinasiwko.github.io/Console-Finances/) of deployed application.
 
 ## Credits
 N/A
